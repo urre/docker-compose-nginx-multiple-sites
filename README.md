@@ -5,7 +5,10 @@ Simple example using multiple websites together.
 ## Run
 
 ```
-docker-compose up
+docker-compose up -d
 ```
 
-View [https://example_one.local](https://example_one.local) and [https://example_two.local](https://example_two.local) in the browser
+View sites in the browser
+
+1. [https://example_one.local](https://example_one.local)
+2. [https://example_two.local](https://example_two.local)
