@@ -23,8 +23,8 @@ server {
         ssl_prefer_server_ciphers on;
         ssl_ciphers               "ECDH+AESGCM:ECDH+AES256:ECDH+AES128:!ADH:!AECDH:!MD5;";
 
-        root /var/www/example_one.com/public_html;
-        index index.html index.htm;
+        root /var/www/example_one.local/public_html;
+        index index.html
 
         access_log /var/log/nginx/access.log;
         error_log /var/log/nginx/error.log;
