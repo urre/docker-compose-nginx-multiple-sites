@@ -8,8 +8,8 @@ services:
       - '443:443'
     restart: always
     volumes:
-      - ./nginx-data/site-data/example_one:/var/www/example_one.com/public_html
-      - ./nginx-data/site-data/example_two:/var/www/example_two.com/public_html
+      - ./nginx-data/site-data/example_one:/var/www/example_one.local/public_html
+      - ./nginx-data/site-data/example_two:/var/www/example_two.local/public_html
       - ./nginx-data/sites-available:/etc/nginx/sites-available
       - ./nginx-data/conf/nginx.conf:/etc/nginx/nginx.conf
       - ./certs:/etc/certs
